@@ -53,9 +53,6 @@ const Register = () => {
           }, 500);
         }
       }
-    },
-    onError: (error: any) => {
-      console.error("Voice recognition error:", error);
     }
   });
 
