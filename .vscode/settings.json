@@ -1,0 +1,10 @@
+{
+  // Ignore unknown at-rules (Tailwind's @apply, @tailwind, etc.) so the CSS validator
+  // in VS Code doesn't underline them with a warning in the workspace root.
+  "css.lint.unknownAtRules": "ignore",
+  "scss.lint.unknownAtRules": "ignore",
+  "less.lint.unknownAtRules": "ignore",
+
+  // Helpful for Tailwind class name suggestions in some file types
+  "editor.quickSuggestions": { "strings": true }
+}
